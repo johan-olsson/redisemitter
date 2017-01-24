@@ -1,12 +1,12 @@
 # RedisEmitter
 
+<hr>
+
 ## Install and test
 ```bash
 npm install --save redisemitter
 npm test
 ```
-
-## Usage
 
 <hr>
 

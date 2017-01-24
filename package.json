@@ -1,6 +1,6 @@
 {
   "name": "redisemitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johan-olsson/redisemitter.git"
   },
   "dependencies": {
     "redis": "^2.6.5",
