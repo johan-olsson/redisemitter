@@ -1,0 +1,19 @@
+{
+  "name": "redisemitter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test",
+    "test:watch": "node_modules/mocha/bin/mocha --watch test"
+  },
+  "author": "Johan Olsson",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "redis": "^2.6.5",
+    "uuid": "^3.0.1"
+  }
+}
