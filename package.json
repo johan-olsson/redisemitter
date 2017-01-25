@@ -1,6 +1,6 @@
 {
   "name": "redisemitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
+    "uuid": "^3.0.1",
     "url": "git@github.com:johan-olsson/redisemitter.git"
   },
   "dependencies": {
-    "redis": "^2.6.5",
-    "uuid": "^3.0.1"
+    "redis": "^2.6.5"
   }
 }

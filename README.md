@@ -1,6 +1,5 @@
 # RedisEmitter
 
-<hr>
 
 ## Install and test
 ```bash
@@ -17,12 +16,7 @@ const RedisEmitter = require('redisemitter')
 const options = {
   host: 'localhost',
   port: 6379,
-  query: {
-    type: '*',
-    action: '*',
-    name: '*',
-    id: '*'
-  }
+  index: ['type', 'action', 'name', 'id']
 }
 const events = new RedisEmitter(options)
 ```
@@ -33,7 +27,7 @@ const events = new RedisEmitter(options)
 * **port** _the port redis should connect to._
   * default: `6379`
 * **query** _the default query all event strings will be generated from._
-  * default: `{ type: '*', action: '*', name: '*', id: '*' }`
+  * default: `['type', 'action', 'name', 'id']`
 
 <hr>
 
