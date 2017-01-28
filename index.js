@@ -9,13 +9,18 @@ module.exports = class RedisEmitter {
 
     this.options = Object.assign({
       port: 6379,
-      host: '127.0.0.1',
+      host: 'localhost',
       index: ['type', 'action', 'name', 'id']
     }, options)
 
     this.subscriptions = {}
     this.outstream = redis.createClient(this.options)
+      .on('error', console.log)
+      .on('connect', console.log)
+
     this.instream = redis.createClient(this.options)
+      .on('error', console.log)
+      .on('connect', console.log)
   }
 
   on(query, callback) {

@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "uuid": "^3.0.1",
     "url": "git@github.com:johan-olsson/redisemitter.git"
   },
   "dependencies": {
+    "uuid": "^3.0.1",
     "redis": "^2.6.5"
   }
 }
