@@ -26,7 +26,7 @@ const events = new RedisEmitter(options)
   * default: `'127.0.0.1'`
 * **port** _the port redis should connect to._
   * default: `6379`
-* **query** _the default query all event strings will be generated from._
+* **index** _the default query all event strings will be generated from._
   * default: `['type', 'action', 'name', 'id']`
 
 <hr>
