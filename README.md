@@ -51,9 +51,9 @@ events.on({
 ```
 
 #### subscriptions
-* **on(query, callback)** _subscribe to all events matching the query_
-* **once(query, callback)** _subscribe to the first event matching the query_
-* **any(callback)** _subscribe to any event_
+* **on({query}, [callback])** _subscribe to all events matching the query_
+* **once({query}, [callback])** _subscribe to the first event matching the query_
+* **any([callback])** _subscribe to any event_
 
 <hr>
 
